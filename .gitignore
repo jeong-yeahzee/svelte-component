@@ -2,15 +2,11 @@ node_modules
 
 # Output
 .output
-.vercel
-.netlify
-.wrangler
+*.lock
+*lock
 /.svelte-kit
 /build
-
-# OS
-.DS_Store
-Thumbs.db
+/dist
 
 # Env
 .env
